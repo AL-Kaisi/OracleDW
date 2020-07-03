@@ -1,0 +1,78 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Apr 15 16:15:11 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   G:\SQL_Loader_Files\ctls\SESSION.ctl
+Data File:      G:\SQL_Loader_Files\csv\SESSION.csv
+  File processing option string: "str '\r\n'"
+  Bad File:     G:\SQL_Loader_Files\bads\SESSION.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table SESSIONS, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+SESSIONID                           FIRST     *   ,  O(") CHARACTER            
+                                                      O(")
+REQUESTID                            NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+TEMPID                               NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+SESSIONDATE                          NEXT     *   ,  O(") DATE DD/MM/YYYY      
+                                                      O(")
+SESSIONSTART                         NEXT     *   ,  O(") DATETIME HH24:mi:ss      
+                                                      O(")
+SESSIONEND                           NEXT     *   ,  O(") DATETIME HH24:mi:ss      
+                                                      O(")
+STATUS                               NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TYPE                                 NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+EMPLOYEECOVERED                      NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+DOPRINT                              NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+
+value used for ROWS parameter changed from 64 to 18
+Record 341: Rejected - Error on table SESSIONS, column SESSIONSTART.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 343: Rejected - Error on table SESSIONS, column SESSIONSTART.
+ORA-01830: date format picture ends before converting entire input string
+
+Record 345: Rejected - Error on table SESSIONS, column SESSIONSTART.
+ORA-01830: date format picture ends before converting entire input string
+
+
+Table SESSIONS:
+  354 Rows successfully loaded.
+  3 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 248616 bytes(18 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:           357
+Total logical records rejected:         3
+Total logical records discarded:        0
+
+Run began on Wed Apr 15 16:15:11 2020
+Run ended on Wed Apr 15 16:15:12 2020
+
+Elapsed time was:     00:00:00.49
+CPU time was:         00:00:00.20

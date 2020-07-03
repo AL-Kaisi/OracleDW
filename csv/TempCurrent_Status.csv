@@ -1,0 +1,9 @@
+CurrentStatusID,CurrentStatusDescription
+1,Principal Full-Time
+2,Principal Part-Time
+3,Assistant
+4,Temp
+5,Retainer
+6,Retired
+7,Other
+8,Not Known

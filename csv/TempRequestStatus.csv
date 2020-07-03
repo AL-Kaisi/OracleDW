@@ -1,0 +1,7 @@
+RequestStatusID,RequestStatusDescription
+1,Met
+2,Unmet
+3,In process
+4,Partially met
+5,Cancelled
+6,Finished

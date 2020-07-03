@@ -1,0 +1,87 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Apr 15 16:15:14 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   G:\SQL_Loader_Files\ctls\TEMP_REQUEST.ctl
+Data File:      G:\SQL_Loader_Files\csv\TEMP_REQUEST.csv
+  File processing option string: "str '\r\n'"
+  Bad File:     G:\SQL_Loader_Files\bads\TEMP_REQUEST.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table TEMP_REQUEST, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+TEMPREQUESTID                       FIRST     *   ,  O(") CHARACTER            
+                                                      O(")
+LOCALCOUNCIL_ID                      NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+REQUEST_DATE                         NEXT     *   ,  O(") DATE DD/MM/YYYY      
+                                                      O(")
+START_DATE                           NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+END_DATE                             NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+MONDAY_AM                            NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+MONDAY_PM                            NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TUESDAY_AM                           NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TUESDAY_PM                           NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+WEDNESDAY_AM                         NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+WEDNESDAY_PM                         NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+THURSDAY_AM                          NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+THURSDAY_PM                          NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+FRIDAY_AM                            NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+FRIDAY_PM                            NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+SATURDAY_AM                          NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+REQUEST_STATUS                       NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+NUMBER_OF_WEEKS                      NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+COMMENTS                             NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+
+value used for ROWS parameter changed from 64 to 4
+
+Table TEMP_REQUEST:
+  87 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 229272 bytes(4 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:            87
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Apr 15 16:15:14 2020
+Run ended on Wed Apr 15 16:15:14 2020
+
+Elapsed time was:     00:00:00.47
+CPU time was:         00:00:00.20

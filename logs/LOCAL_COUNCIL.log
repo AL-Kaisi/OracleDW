@@ -1,0 +1,85 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Apr 15 16:15:10 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   G:\SQL_Loader_Files\ctls\LOCAL_COUNCIL.ctl
+Data File:      G:\SQL_Loader_Files\csv\LOCAL_COUNCIL.csv
+  File processing option string: "str '\r\n'"
+  Bad File:     G:\SQL_Loader_Files\bads\LOCAL_COUNCIL.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table LOCAL_COUNCIL, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+LOCALCOUNCIL_ID                     FIRST     *   ,  O(") CHARACTER            
+                                                      O(")
+LOCALCOUNCILNAME                     NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+ADDRESS_LINE_1                       NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+ADDRESS_LINE_2                       NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TOWN                                 NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+COUNTY                               NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+POSTCODE                             NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+LOCALITY                             NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TELEPHONE                            NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+FAX                                  NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+BYPASS                               NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+APPROXIMATE_LIST_SIZE                NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+TYPE_OF_COMPUTER_SYSTEM              NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+COMPUTER_USED_IN_CONSULTATIONS       NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+APPOINTMENT_SYSTEM                   NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+LEAFLETS                             NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+DATE_OF_LAST_UPDATE                  NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TYPEOFLOCALCOUNCIL                   NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+
+value used for ROWS parameter changed from 64 to 4
+
+Table LOCAL_COUNCIL:
+  62 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 213264 bytes(4 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:            62
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Apr 15 16:15:10 2020
+Run ended on Wed Apr 15 16:15:10 2020
+
+Elapsed time was:     00:00:00.42
+CPU time was:         00:00:00.22

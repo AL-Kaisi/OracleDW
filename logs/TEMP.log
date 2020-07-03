@@ -1,0 +1,123 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Apr 15 16:15:12 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   G:\SQL_Loader_Files\ctls\TEMP.ctl
+Data File:      G:\SQL_Loader_Files\csv\TEMP.csv
+  File processing option string: "str '\r\n'"
+  Bad File:     G:\SQL_Loader_Files\bads\TEMP.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table TEMP, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+TEMPID                              FIRST     *   ,  O(") CHARACTER            
+                                                      O(")
+TITLE                                NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+FIRST_NAME                           NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+LAST_NAME                            NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+ADDRESS_LINE_4                       NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+ADDRESS_LINE_2                       NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TOWN                                 NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+COUNTY                               NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+POSTCODE                             NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TEL_HOME                             NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+FAX_HOME                             NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TEL_WORK                             NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+FAX_WORK                             NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+MOBILE_PHONE                         NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+DATE_APPLICATION_WAS_SENT            NEXT     *   ,  O(") DATE DD/MM/YYYY      
+                                                      O(")
+GENDER                               NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+CURRENT_STATUS                       NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+DATE_OF_BIRTH                        NEXT     *   ,  O(") DATE DD/MM/YYYY      
+                                                      O(")
+NATIONALITY                          NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+USE_OF_A_CAR                         NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+QUALIFICATION_YEAR                   NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+QUALIFICATION_PLACE                  NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TYPE_OF_COVER_PREFERRED              NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+MONDAY_AM                            NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+MONDAY_PM                            NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TUESDAY_AM                           NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TUESDAY_PM                           NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+WEDNESDAY_AM                         NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+WEDNESDAY_PM                         NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+THURSDAY_AM                          NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+THURSDAY_PM                          NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+FRIDAY_AM                            NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+FRIDAY_PM                            NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+SATURDAY_AM                          NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+TEMP_REGISTRATION_STATUS             NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+DATE_APPLICATION_RECEIVED            NEXT     *   ,  O(") DATE DD/MM/YYYY      
+                                                      O(")
+TEMPSTATUS                           NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+
+value used for ROWS parameter changed from 64 to 2
+
+Table TEMP:
+  181 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 213780 bytes(2 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:           181
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Apr 15 16:15:12 2020
+Run ended on Wed Apr 15 16:15:13 2020
+
+Elapsed time was:     00:00:00.99
+CPU time was:         00:00:00.29

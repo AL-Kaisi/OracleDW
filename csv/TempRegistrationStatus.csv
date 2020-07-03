@@ -1,0 +1,6 @@
+LocumRegistrationStatusID,LocumRegistrationStatusDescription
+1,Waiting for Application Form
+4,Waiting for 1 Reference
+5,Waiting for Both References
+6,Waiting for a decision
+14,None

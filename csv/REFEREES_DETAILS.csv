@@ -1,0 +1,267 @@
+RefereeID,First Name,Last Name,Address Line 1,Adress Line 2,Town,County,Postcode,Tel
+3,A.,Sivathasan,60 Central Hill,Upper Norwood,London,,SE19,0208 670 7117
+4,Geoffrey,Goldbery,Redbridge house,Oxford,,,OX3 5FR,0151 589632
+5,M.A.,Whitehead,Brigstock Medical Centre,141 Brigstock Road,Thornton Heath,Surrey,,0181 6841128
+6,Janet,Hall,1 New Swan Yard,Gravesend,,Kent,DA12 1BS,01474 534123
+7,Jan,Wagstyl,St. James Practice,13 Croydon Eoad,Beckenham,Kentbr3 4dg,,0181 6500568
+8,Y.D.,Malik,32 Chinbrook Road,Grove Park,London,,SE13,0181 8574660
+9,Vijay,Purwar,74 Station Road,West Wickham,Kent,,`,0181 7778245
+10,Chris,Thorne,Mount Pleasant Health Centre,Mount Pleasant,Exeter,Devon,,01392 430132
+11,W.J.,Moffat,Singleton Med.Centre,Singleton,Ashford,Kent,TN23 5GR,1233646036
+13,S.,Butler Gallie,The Surgery,Station Road,Charing,Kent,,1233713063
+14,Ian,Ung,56 Blairderry Road,Streatham Hill,London,,SW2 4SB,0181 6713340
+15,Lionel,Samarasinghe,391 High Road,Wood Green,London,,N22 5JB,0181 8890445
+16,David,Masters,Brook Lane Mission,198 CourtFarm Road,Mottingham,lONDON,se9 4js,0181 8570011
+18,A.,Long,Dept.Paedriatric Medicine,Farnborough Hospital,Orpington,Kent,BR6 8ND,01689 814000
+19,R.,Hornung,'Medwyn',Moores Road,Dorking,Surrey,,01306 882422
+20,M.,Jawad,New East Surrey Hospital,Three Arch Road,Redhill,Surrey,,01737 768511
+21,David,Borsey,Postgraduate Centre,Ysbly Clan Clwyd,Buddelwgdun,Denbighshire,,1745583901
+22,Laura,Jones,Bronyssyunu Surgery,Brrdye Street,Denbigh,Denbighshire,LL16 3TN,1745814427
+23,Kirstie,Noltie,South Lewisham H.Centre,50 Conisborough Crescent,Catford,London,SE6 2SP,0181 6988921
+24,J.,Woodward,43 Granville Road,Sidcup,Kent,,DA14 4TA,0171 3027721
+25,C.,Neal,82 Marlborough Park Ave.`,Sidcup,Kent,,DA15 9DX,0181 3001197
+26,Clive,Bailsy,59 Addiscombe Road,East Croydon,Surrey,,,0181 6885929
+27,D.,McGibbon,Greenwich District Hospital,Vanbrugh Hill,Greenwich,,SE10,0181 8588142
+28,Marian,Roberts,41 Broomwood Road,St. Pauls Cray,Orpington,Kent,BR5 3DG,01689 832454
+29,Clare,Perry,Bromley FHSA,Global House,10 Station R,"Hayes,Kent",,0181 3158315
+30,P.,Rubner,148 Upper Clapton Road,London,,,E5,0181 8067735
+31,C.J.,Wilcock,The Surgery,49 Firends Road,Croydon,Surrey,CRO 1ED,0181 6885032
+32,M.,Carter,74 Station Road,West Wickham,Kent,,BR4 OPU,0181 7778245
+33,Abdul,Tavabie,Ballater surgery,108 Chislehurst Road,Orpington,Kent,BR6,01689 826664
+34,H.,Stoate,Albian Surgery,6 Pinalt |Road,Bexleyheath,Kent,,0181 3048334
+35,M.,Blackwell,Chiltern Wing,Sutton Hospital,Cotswold Roa,Sutton- Surrey,SM2 5NF,0181 6444343
+36,A.,Mahendra,56 PIckhurst Lane,Hayes,Kent,,BR2 7JF,0181 4622880
+37,S.,Maheswaren,1 Gillmas Road,Orpington,Kent,,BR5 4LA,01689 822022
+38,Jackie,Tavabie,Ballater Surgery,108 Chislehurst Road,Orpington,Kent,BR6 ODW,1689826664
+39,M.,Finch,Musgrave Park Hospital,Stockmans Lane,Belfast,N. Ireland,,01232 669501
+40,D.,Stoddard,Shettleton Health Centre,420 Old Shettleton Road,Glasgow,Scotland,G32 75Z,0141 5316220
+41,G.R.R.,Jesudasen,38 Countisbury Drive,Childwall,Liverpool,,L16 6JJ,0151 7372023
+42,M.F.,Haqi,Eastgate Surgery,Church Street,Dunstable,Beds,LU5 4RR,01582 670050
+43,,Rumfeld,The Cedars,Swanley Medical Centre,Swanley,Kent,,01322 663111
+44,W.A.,Anag,The Cedars Surgery,26 Swanley  Centre,Swanley,Kent,BR8 7H,01322 663111
+45,J.,Ashton,116 High Street,West Malling,Kent,,,01732 870212
+46,R.M.,Gupta,44 Sevenoaks Road,Orpington,Kent,,BR6 9JR,01689 821179
+47,G.,Stein,Portnalls Unit,Farnborough Hospital,Farnborough,Kent,BR6 8ND,01689 862899
+48,T.F.W.,Dilke,Blackheath Hospital,Lee terrace,London,,SE3,0208 318 7722
+49,N.F.,Raphael,St. Marks Medical Centre,Wrottesley Road,Plumstead,London,SE18,0181 8546262
+50,Susan,Hill,74 Station Road,West Wickham,Kent,,BR,0181 7778245
+51,R.,Castell,Kinnaird House,London Lane Clinic,Bromley,Kent,,0181 4602661
+52,R.,Hickman,32 London Road,Sittingbourne,Kent,,ME10 1ND,01795 472109
+53,B.,Singh,59 Lower Green Road,Pembury,Kent,,TN2 4EA,01892 822005
+54,C,Brodie,Jenner Health Centre,201 Stanstead Road,Forest Hill,London,SE23,0181 6902231
+55,Michael,Collins,356 Southborugh Lane,Bromley,Kent,,BR2 8AA,0181 4687081
+57,D.,Wheeler,Gallions Reach Health Centre,Bentham Road,Thamesmead,London,SE28 8BE,0181 8585729
+58,CAroline,Fraser,The Shrubbery Surgery,65A Perry Street,Gravesend,Kent,DA11 8RD,01474 356661
+59,Mark,Westbrook,The Shrubbery Surgery,65a Perry Street,Gravesend,Kent,DA11 8RD,01474 356661
+60,,O'Connor,The Surgery,30 Old Road West,Gravesend,Kent,DA11 022,01474 352075
+61,,Munasinghe,Joyce Green Hospital,Joyce Green Lane,Dartford,Kent,DA,01322 227242
+62,S.R.,Purwar,44 Sevenoaks Road,Orpington,Kent,,,
+63,C.,Shakespeare,Greenwich District Hospital,lVanburgh Hill,Greenwich,London,SE10 9HE,0181 8588141
+64,J.C.,Marr,The Hollies Surgery,83 Birch Lane,Dukinfield,Cheshire,SK16 4AJ,0161 3302039
+65,,Procter,Hollies Surgery,83 Birch Lane,Dukinfield,Cheshire,SK16 4AJ,0161 3302039
+66,Roger,May,9 The Close,Petts Wood,Kent,,BR5 1JA,01689 826682
+67,NYan,Tin,Leacroft Medical Practice,Ifield Road,West Green,"Crawley, Sussex",,01293 53557
+68,Eric,Gambrill,Leacroft Medical Centre,Ifield Road,West Green,"Crawley, Sussex",,01293 526441
+69,D.J.,Williams,62 Manor Road,Mitcham,Surrey,,,0181 7641511
+71,S,Samadian,St Helier Hospital,Wrythe Lane,Carshalton,Surrey,,0181 6444343
+73,Nicola,Payne,2 Ashmere Avenue,Beckenham,Kent,,BR3 6PQ,0181 6504646
+74,J.,Muir,BrookLaneMission,Brook Lane,Downham,Kent,,0181 6955567
+78,James,Lee,South Lewisham H.Centre,50 Conisborough Crescent,Catford,London,SE6 23P,0181 6988921
+79,Marian,Roberts,41 Broomwood Road,St. Pauls Cray,Orpington,Kent,BR5 3DG,1689832454
+80,R.,Hinchcliffe,Clifton Lane Corner,Doncaster Road,Rotherham,,,01709 512643
+81,,Batra,Waldron health Centre,Douglas Way,New Cross,London,SE8 4BG,0181 6910144
+82,R,Hinchcliffe,Surgery,Clifton Lane Corner,Doncaster Rd,"Rotherham,Lancs",,01709 512643
+83,,Batra,Waldron Health Centre,Douglas Way,New Cross,London,SE8 4BG,0181 6910144
+84,J.,Moriarty,Gt.Hollands Medical Centre,Gt.Hollands Square,Bracknell,Berks,RG12 8WY,01344 54338
+85,G.,John,Poole General Hospital,Longflleet Road,Poole,Dorset,,01202 665511
+86,Jackie,Tavabie,Ballater surgery,108 Chislehurst Rd.,Orpington,Kent,BR6,01689 873518
+87,S.,Hobbins,Farnborough Hospital,Farnborough Common,Orpington,Kent,,01689 814000
+88,G.,Ladd,Dysart Surgery,13 Ravensbourne Road,Bromley,Kent,BR1 1HN,0181 4644138
+89,,Ng,Dept. Paediatrics,Farnborough Hospital,Farnborough,Kent,,01689 814000
+90,S.,Ahmed,Waldram Health Centre,Stanley Road,Deptford,London,SE8 4BG,0181 6920606
+91,F.,Hussain,6 Cadnam Close,Canterbury,,Kent,CT12 7SQ,
+92,S.,Hart,Mayday University Hospital,Mayday Road,Thornton Heath,Surrey,CR7 7YE,0181 4013399
+93,M.,Johnson,Parkside Group Practice,27 Wyche Grove,South Croydon,Surrey,CR2 6EX,1816802588
+94,Michael,Udal,Gosbury Hill Health Centre,Orchard Gardens,Chessington,Surrey,KT9 2EU,1813973019
+95,James,Close,Epsom Educational Training Centre,30 Upper Fairfield Road,Leathehead,Surrey,KT22 7HH,01372 375666
+96,Juliette,Castles,The Surgery,Firge Close,Hayes,Kent,BR2 7LL,0181 4621601
+97,Peter,Harris,Sloane Hospital,125  Albermarle Road,Beckenham,Kent,BR3 5HS,0181 466 691
+98,Gillian,Braunold,Kilburn Park Med. Centre,12 Cambridge Gardens,Kilburn,London,NW6 5AY,0171 6242414
+99,Sue,Morrison,Marylebone Health Centre,17a Marylebone Road,London,,NW1 5LT,0171 9256328
+100,N.,Ford,2 Southway,Shirley,Croydon,Surrey,CR0 8RP,0181 7771876
+101,P.K.,Srivastava,21b South Norwood Hill,South Norwood,London,,SE25 6AA,0181 6530635
+102,C..,Cheal,The Surgery,"1, Wells Park Road",Sydenham,London,SE26 6JE,0181 699 2840
+103,V.,Taylor,Bethnal Green Health Centre,Florida street,London,,E2,0171 739 6677
+104,S.,Hussain,Plumstead Health Centre,Tewson Road,Plumstead,London,SE18 1BH,0181 854 1898
+105,,Patel,"24, Suttons Avenue",Hornchurch,Essex,,RM12  LF,01708 442 711
+106,M.,Free,115 Epsom Road,Sutton,Surrey,,SM3 9EY,0181 644 7718
+107,O.,Salerno,7 Gravel Hill,Addington,Croydon,Surrey,CRO 5BG,0181 655 4013
+108,,Trefzer,258 Ashbourne Road,Richmond,Surrey,,TWO 7RZ,0181 940 3548
+109,S.,Kassab,Royal London Homoepathic Hosp.,Great Ormond Street,London,,WC1N 3HR,0171 837 8833
+110,J.,Sheriffi,"52, Wimpole Road Surgery",Colchester,Essex,,,01206 794794
+111,Zia,Qureshi,Prince Albert Community Clinic,110- 9th. Street East,"Prince Albert,",Saskatchewan,Canada S6,763-6464
+112,S.H.,Robertson,"33, Addington Road",West Wickham,,Kent,BR4 9BW,0181 462 1473
+113,Michael,Collins,"356, Southborough Lane",Bromley,Kent,,BR2 8AA,0181 467 1211
+114,Daniel,Haines,"58, Vesta Road",Brockley,,London,SE4 2NH,0171 639 0654
+115,D.R.,Boyns,Course Organiser for S.W.Wales,The Health entre,Kidwelly,"Dyfed, Wales",,01554 890921
+116,S.V.,Singh,"16, Churchill Lodge","Savil Row, High Street",South Woodford,Essex,,0181 505 4120
+117,U.S.,Bajpeyi,"22, Addiscombe Grove",East Croydon,Surrey,,,0181 686 6954
+118,K.R.,Hedley,The Old Bakery,Penshurst Road,Speldhurst,Kent,TN3 OPQ,01892 863040
+119,C.,Challacombe,The Vanburgh Group practice,Vanbrugh Hill,Greenwich,London,SE10 9HQ,0181 312 6095
+120,J.,Crook,Kinnaird House,"37-79, London Lane",Bromley,Kent,BR1 4AD,0181 460 2661
+121,T.,Fenton,Paediatric Dept.,Greenwich District Hospital,Vanbrugh Hill,London,SE10,0181 312 6008
+122,J.,Cunliffe,Waterside Health Centre,Beaulieu Road,Hythe,Southampton,SO45 5WX,01703 845955
+123,C.,Reid,Dept.Medicine for Elderly,Queen Alexandra Hospital,Cosham,Hants,PO6 3LY,01705 386919
+124,Maurice,Cawood,Wakefield Health Authority,White Rose House,West Parade,Wakefield,WF1 ILT,01924 814400
+125,Colin White,Pontefract Infirmary,Pontefract Infirmary,Friarwood Lane,Pontefract,W.Yorks,WF8 IPL,01977 600600
+126,Colin,White,Pontefract Infirmary,Friarwood Lane,Pontefract,W.Yorks.,WF8 IPL,01977 600600
+127,J.,Sherifi,"52, Wimpole Roaad",Colchester,Essex,,CO1 2DL,01206 794794
+128,A.,Davidson,"52, Wimpole Road",Colchester,Essex,,CO1 2DL,01206 794 794
+129,,Linney,Woodcote Group Practice,"32, Foxley Lane",Purley,Surrey,CR8 3EE,0181 660 1304
+130,K.J.,Cochran,Tollgate Health Centre,220 Tollgate Road,,London,E6 5JS,0207 445 7700
+131,V.,Farrell,,,,,,
+132,A.W.J.,Fitzgerald-Barron,St. Clements',Tanner street,Winchester,Hants,S023 8AD,01962 852211
+133,R.J.,Casson,"39, Steveton Road",Drayton,Oxon,,OX14 4JX,01235 531322
+134,D.,Scott/Bevan,'Cyprus Cottage',Harwell,Oxon,,OX11048,01235 221031
+135,J.,Lal,"480, Footscray Road",New Eltham,,London,SE9 3TU,0181 850 2458
+136,R.,Massey,"280, Court Farm Road",Mottingham,London,,SE9,0181 857 3322
+137,Patrick,Bower,Balham Park Surgery,"92, Balham Park Road",Balham,London,SW12 8EA,0181 767 8828
+138,G.,Evans,Consultant in Comm.Paediatrics,Livingston Hospital,"East Hill, Dartford",Kent,DA1 1SA,01322 622356
+139,K.,Hopkin-Jones,Keston House Practice,"70, Brighton Road",Purley,Surrey,,0181 660 9223
+140,Michael,Ward,St. Heliers NHS Trust,Wrytte Lane,Carshalton,Surrey,,0181 296 2000
+141,Alan,Fishtal,The Park Practice,"113, Anerley Road",Penge,London,SE20 8AJ,020 8778 8027
+142,B.,Lock,Dept. Of Elderly Medicine,Orpington Hospital,Sevenoaks,Kent,BR6 9JU,01689 815000
+143,F.E.,Shaw,Worlds End Health Centre,Kings Road,London,,SW10 OUD,0171 371 0357
+144,John,Ribchester,Chairman PCG,Chestfield Medical Centre,Reeves WayChestfield,"Whitstable,Kent",CT5 3QU,01227 794555
+145,,Brandman,Maylands Health Centre,Upper Rainham Road,Hornchurch,Essex,,
+146,,Kuchai,Health Centre,Harold Hill,Essex,,,01708 343991
+147,Peter,Hamilton,'Cumberland House,"8, High Street",Stone,Staffs,,01785 813538
+148,Richard,Hayward,'Higherland Surgery',"3, Orme Road",Newcastle under Lyme,Staffs,,01782 717044
+149,M.D.,Khan,126 Glen Eagle Road,Streatham,London,,SW16 6BA,0181 769 7355
+150,S,Ahmed,44 Beaumont Road,Petts Wood,Orpington,Kent,BR5 1JJ,0181 692 1493
+151,S.,Redpath,Carlisle House Surgery,"53, Lagland Street",Poole,Dorset,BH15 1QD,01202 683396
+152,C.,Lay,Amherst Medical Practice,"21, St. Botolphs Road",Sevenoaks,Kent,TN13 3AQ,01732 459255
+153,R.,Trew,"518,London Road",Thornton Heath,Surrey,,,0181 687 2190
+154,N.,Ichan,Linden Lodge,"519,London Road",Thornton Heath,Surrey,,0181 684 2161
+155,A.,Lloyd-Smith,Ivy Court Surgery,Tenterden,Kent,,,01580 763666
+156,R.,Hooper,Garrison Medical Centre,Episkopi,Cyprus,BFPO 53,,00357 5 263255
+157,Robin,Kirby,"2, Manor Road",West Wickham,Kent,,BR4 9PS,0181 777 1293
+158,K,Coonjobeeharry,41 Broomwood Road,St. Pauls Cray,"Orpington,Kent",BR5 2JP,,01689 832454
+159,,Gilbert,Thorndyke Centre,Longley Road,Rochester,Kent,MET 2TH,01634 817217
+160,,Tanday,Thorndyke Centre,Longley Road,Rochester,Kent,ME1 2TH,01634 817217
+161,Lydia,Hill,Mordern Hall Medical Centre,"256, Morden Road",Morden,Surrey,SW19 3DA,0181 540 0585
+162,A.,Econs,"29, Hersham Road",Walton on Thames,Surrey,,KT12 lLF,01932 252425
+163,M.,Baksh,"143,Whitehorse Hill",Chislehurst,Kent,,BR7,0181 857 6621
+164,D.,Milne,The Barnard Medical Practice,"43, Granville Road",Sidcup,Kent,DA14 43A,0181 302 7721
+165,B.,Valentine,Dept. Obst. & Gynae,Eastbourne DGH,Kings Drive,Eastbourne,BN21 2UD,01323 417 400
+166,,Deery,The Surgery,"1, Arlington Road",Eastbourne,Sussex,,01323 727 531
+167,V.A.,Todd,Lakeside Health Centre,Thames Mead,London,,SE2 9UQ,0181 310 3281
+168,A.,Rogers,Forest Hill Practice,1Forest Hill Road,London,,SE22 OSQ,0181 693 2264
+169,Sally,Scarsbrick,Eversley Medical Centre,"501, London Road",Thornton heath,Surrey,CR7 6AR,0181 684 1174
+170,Rebecca,Sparkes,Director of Primary Care,Croydon H.A.Knollys House,"17, Addiscombe Road","Croydon,Surrey",CR9 6HS,0181 401 3971
+171,,Fraser,The shrubbery,Perry Street,Gravesend,Kent,DA11 8RD,
+172,,Mikhail,Stone House Hospital,Cotton Lane,Dartford,Kent,,
+173,P.A.,Davis,The Old Church Surgery,"99,Chingford Avenue",Chingford,London,E4 6RG,
+174,M.,Grenville,Asoc.Dean TPMDE,"33, Millman Street",London,,WC1N 3EJ,
+175,E.,Butler,Manor Brook Medical Centre,"117, Brook Lane",London,,SE3 OEN,0181 312 4292
+176,J.W.,Castles,Forge Close Surgery,Forge Close,Hayes,"Bromley,Kent",BR2,0181 462 1601
+177,T.,McQueen,Farnborough Hospital,Farnborough Common,Orpington,Kent,BR6,01689 814000
+178,Jeremy,Shindler,"501, London Road",Thornton Heath,Surrey,,CRO,0181 761 5575
+179,H.,Nandra,"125/127, Prince Regent Lane",Plaistow,West Ham,London,E13 8RY,0171 476 3182
+180,K.,Orimoloye,"52, Market Street",East Ham,London,,E6 2RA,0181 472 0202
+181,Peter,Green,The Surgery,Parkside,Cliffe Woods,Rochester,ME3 8HX,01634 221410
+182,Awwadh,Jha,"61, Tunbury Avenue",Walderslade,Chatham,Kent,ME5 9EH,01634 402115
+183,Tamsin,Elsey,Station Road Surgery,"69, Station Road",Sidcup,Kent,DA15 7DS,
+184,Hamid,Khawaja,Queen Mary's Hospital,Frognal Avenue,SIDCUP,Kent,DA14 6LT,
+185,,Barretto,Thornton Heath Centre,,,,,0181 665 7308
+186,,Ramsbotham,Thornton Heath Centre,,,,,0181 665 7308
+187,,Barretto,Thornton Heath Health Centre,"61a, Gillett Road",Thornton Heath,Surrey,CR7 8RL,0181 665 7308
+188,,Ramsbotham,Thornton Heath Health Centre,"61a, Gillett Street",Thornton Heath,Surrey,CR7 8RL,0181 665 7308
+189,Ann,Marshall,Old Church Hospital,Waterloo Road,Rommford,Essex,RM7 OBE,01708 746090
+190,A.K.,Rana,"294, Bexley Lane",Sidcup,Kent,,DA144 JG,0181 980 3676
+191,M.,Strachan,The College Practice,"50, College Road",Maidstone,Kent,ME15 6SB,01622 752345
+192,L.,Kemp,Woodside Mental Health Centre,London Road,Maidstone,Kent,ME,01622 725000
+193,T.,Weston,Regents Park Medical Centre,Cumberland Market,London,,NW1 3RH,01420 85935[home]
+194,A.K.,Singh,28 Streatham Place,Streatham,London,,SW2 4QY,0208 671 6191
+195,J.,Horowicz,"148, clapton Road",London,,,E5 9JZ,0181 806 7735
+196,B.,Counsell,Woodcore Group Practice,"32, Foxley Lane",Purley,Surrey,CR8 3EE,0181 660 1304
+197,P.,Newlands,Woodcote Group Practice,"32, Foxley Lane",Purley,Surrey,CR8 3EE,0181 660 1304
+198,Miriam,Beza,"84, Ingleton Avenue",Welling,Kent,,DA16 2JZ,0181 303 7030
+199,Helen,Graham,1 Forest Hill Road,London,,,SE22 OSQ,0181 693 4008
+200,Peter,Campbell,Selsdon Park Medical Practice,"97, Addington Road",South Croyon,Surrey,CR2 8LG,0181 657 0067
+201,M.E.,Watkins,Greystone House Medical Centre,"99, Station Road",Redhill,Surrey,RH1 1EB,01737 761201
+202,P,Mohandes,"83, Malmain Way",Beckenham,Kent,BR3,,0181 663 1645
+203,J.,Reardon,Mayday University Hospital,London Road,Thornton Heath,Surrey,CR7 7YE,0181 401 3010
+204,S.,Turley,Summerlands Surgery,Stats Hill Rd.,Farnborough,Kent,BR5 7AR,01689 862748
+205,N.,Joyner,The Albion Surgery,"6, Pincott Road",Bexleyheath,Kent,DA6 7LP,0181 304 8334
+206,Jackie,Quinn,Streatham Hill Medical Practice,41 Streatham Hill,London,,SW2 4JP,0181 674 0153
+207,J.,Martin,Centro de San Andres,c/Alberto Palacios 22,"2801, Madrid",Spain,,34917988100
+208,Ross,Ellice,"37-39, LOndon Lane",Bromley,Kent,,BR1,0181 290 11333
+209,D.,Wheeler,Gallions Reach Health Centre,Bentham Road,Thamesmead,London,SE28 8BE,
+210,R.,Marchant,Manor Brook Health Centre,"117, Brook Lane",Kidbrooke,London,SE3 OEN,0181 856 9720
+211,Jane,William,Tamworth House Medical Centre,"341, Tamworth Lane",Mitcham,Surrey,CR4 1DL,0181 7614 1511
+212,N.,Chana,Postgrad.Medical Education Centre,St. Georges Hospital,Tooting,London,SW16 OQ7,
+213,P.P.,Kakad,The Surgery,"90, Wyndham Road",London,,SE5 OUB,0171 703 2046
+214,S.K.,Lingham,The Surgery,457 Green Lane,Palmers Green,London,N.13,0181 882 9393
+215,C,Pawa,Fieldway Medical Centre,"51a, Danebury",New Addington,Croydon,CR,01689 841999
+216,Raj,Persaud,'Westways' Rehab.Centre,James Street,West Croydon,,CR,0181 700 8512
+217,C.H.,West,Dartford East Health Centre,pilgrims Way,Dartford,Kent,DA1,01322-274574
+218,Claire,Beazley,Dartford East Health Centre,Pilgrims Way,Dartford,Kent,DA1`,01322-274547
+219,,Gardner,Farnborough Hospital,Obs. and Gynae Dept.,Farnborough Common,Kent,BR6,01689 814000
+220,Robert,Thompson,Charterhouse Surgery,"59, Sevenoaks Road",Orpington,Kent,BR6 9JN,01689 820159
+221,Gail,Walker,"62, Windsor Drive",Chelsfield,Orpington,Kent,BR6 6HD,01689 852204
+222,J.,KIngston,Barnard Medical Practice,"43, Granville Road",Sidcup,Kent,,0181 302 7721
+223,P,Bennett,Barnard Medical Centre,"43, Granville Road",Sidcup,Kent,,0181 302 7721
+224,A.K.,Katiyar,"55, Ruxley Lane",Ewell,Surrey,,KT19 0J,0208 1391 4859
+225,A.,Krishna,"28, Loont",Winsford,Cheshire,,CW7 1EV,01606 862868
+226,Nicholas,Hill,Farnborough Hospital,Farnborough Common,Orpington,Kent,BR6,01689 8146000
+227,V.K.,Gupta,Foxhill Medical Centre,Peacehaven,East Sussex,,BN10 7SE,01273 585163
+228,R.,Turner,The Martletts Hospice,Wayfield Avenue,Hove,East Sussex,BN3 7LW,
+229,Norman,Hamblyn,Chislehurst Med. Practice,"42, High Street",Chislehurst,Kent,BR7 5LN,0208 467 5551
+230,S.,Priddle,c/o Willows Clinic,Red Hill,Chislehurst,Kent,BR7,0208 467 1621
+231,K.,Harding,Wound Healing Research Institute,University of Wales College of Medicine,Heath Park,Cardiff,CF4 4XN,029 2068 2176
+232,Peter,Jones,149 Altmore Avenue,London,,,E16,0208 472 4822
+233,W.,Frost,,,,,,
+234,A.O.,Diver,60 Central Hill,Upper Norwood,London,,SE19,0208 670 7117
+235,Philip,Posner,James Wigg Practice,2 Bartholomew Road,London,,NW5 2AJ,0207 530 4747
+236,Myrto,Angeloglou,The Surgery,Chippenham Gardens,2-8 Malvern Road,London,NW5 5PP,0207 328 3836
+237,Philip,Posner,James Wigg Practice,2 Bartholomew Road,London,,NW5 2AJ,0207 530 4747
+238,Myrto,Angeloglou,The Surgery,Chippenham Gardens,2-8 Malvern Road,London,NW6 5PP,020 7328 3836
+239,,CAMIDOC,Bloomsbury Day Hospital,St. Pancras Hospital,4 St. Pancras Way,London,NW1 0PE,0207 530 5445
+240,J.G.,Vernon,John Tasker House,56 New Street,Great Dunmow,,CM6 1BH,01371 872121
+241,Lisa,Parker,The Park Practice,113 Anereley Road,Penge,London,SE20 8AJ,0208  659 8037
+242,DAVID,MASTERS,BROOK LANE MISSION,198 COURT FARM ROAD,MOTTINGHAM,LONDON,SE9,0208 857 0011
+243,D,Bamberger,,,,,,
+244,R,Richards,General Medicine,Orpington Hospital,Sevenoaks Road,"Orpington, Kent",BR6 9JU,01689 815189
+245,V.L.,Acquaah,The Surgery,21 Shawbrooke Road,London,SE9 6AH,,0208 850 1613
+246,,Ramanathan,14  Acacia Grove,Dulwich,london,SE21 8ER,,0208 766 6994
+247,R.V.,Mohile,Chadwell Medical Centre,1 Brentwood Road,Chadwell St. Mary,"Grays, Essex",RM16 4JD,01375 858404
+248,,Benjamin,20  Herbert Road,Emerson Park,Hornchurch,Essex,RM11 3LD,01708 472444
+249,S.,Gregson,The Oaks Surgery,Nightingale Way,Swanley,Kent,,01322 668775
+250,A.,Bothan,Paediatric Department,Queen Mary's Hospital,Sidcup,Kent,,0208 302 2678
+251,D,Dirk,Heilig Hart Hospital,3300 Tienen,BELGIUM,,,0032 1680 9011
+252,Willy,Storms,Dutsebaam 9,3140 Keerbergem,BELGIUM,,,0032 1551 4394
+253,Janet,Hall,1 New Swan Yard,Gravesend,,Kent,DA12 1BS,01474 534123
+254,D,Corbett,The Orchard Practice,Dartford West Health Centre,Tower Road,Dartford,DA,01322 223960
+255,R S,Diu,New Hayes Bank Surgery,"Bybrook, Kennington",Ashford,Kent,TN24 9JZ,01233 624642
+256,K,Allenby,Consultant Obs & Gynae,William Harvey Hospital,"Kennington Road,","Willesbrorough,",TN24 OLZ,01233 616696
+257,B.B.,Shah,27 Clifton Rise,New Cross,London,,SE14 6ER,0208 692 1387
+258,O.,Khan,Brockley Road Surgery,Brockley Road,Brockley,London,SE4 2PJ,0208 291 4249
+259,Helen,Tattersfield,Oakview Family Practice,190 Shroffold Road,Downham,Bromley,BR! 5NJ,0208 695 6677
+260,David,Davies,Oakview Family Practice,190 Shroffold Road,Downhan,Bromley,BR! 5NJ,0208 695 6677
+261,Helen,Tattersfield,Oakview Family Practice,190 Shroffold Road,Downham,Bromley,BR1 5NJ,0208 695 6677
+262,David,Davies,Oakview Family Practice,190 Shroffold Road,Downham,Bromley,BR1 5NJ,0208 695 6677
+263,E A M,Coulsen,New Hayesbank Surgery,Bybrook,"Kennington, Ashford",Kent,TN2 9JZ,01233 624624
+264,E A M,Coulsen,New Hayesbank Surgery,Bybrook,"Kennington, Ashford",Kent,TN2 9JZ,01233 624624
+265,L,Stevens,Newtown  Surgery,147 Lawn Avenue,Great Yarmouth,Norfolk,NR30 1QP,01493 334500
+266,L,Stevens,New Town Surgery,147 Lawn Avenue,Great Yarmouth,Norwich,NR30 1QP,01493 334500
+2147347449,S,Deshmukh,Medical Centre,144 -150 High Road,Willesden,London,NW10 2PT,0208 459 5550
+2147347450,P,kumaram,The Medical Centre,144-150 High Road,Willesden,London,NW10 2PT,0208 459 5550
+2147347451,M,Lasrado,24 Churchdown,Downham,Bromley,Kent,Br1 5PT,0208 695 6575
+2147347452,Anna,Wilkinson,The Surgery,42 Poverest Road,Orpington,Kent,BR5 2DQ,01689 833643
+2147347453,S,Browning,Cons. Psychiatrist,Erith Hospital,Park Crescent,Erith Kent,DA8 3EE,01322 336819
+2147347454,A,Ruben,4 Little Bornes,Dulwich,London,,SE21 8SE,020 8670 0480
+2147347455,J,Gray,Gosbury Hill Health Centre,Orchard Gardens,Chessington,Surrey,KT9 1AG,020 8 974 2222
+2147347456,James,Heathcote,South View Surgery,South View,Bromley,Kent,BR1 3DR,020 8460 1945
+2147347457,R A P,Stott,"ICP, Old Cottage Hospital",Alexandra Road,Epsom,Surrey,KT17 4BL,01372 724434
+2147347458,R J,Cowlard,"ICP, Old Cottage Hospital",Alexandra Road,Epsom,Surrey,KT17 4BL,01372 724434

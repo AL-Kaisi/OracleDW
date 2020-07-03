@@ -1,0 +1,69 @@
+
+SQL*Loader: Release 12.2.0.1.0 - Production on Wed Apr 15 16:15:09 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   G:\SQL_Loader_Files\ctls\EMPLOYEE_DETAILS.ctl
+Data File:      G:\SQL_Loader_Files\csv\EMPLOYEE_DETAILS.csv
+  File processing option string: "str '\r\n'"
+  Bad File:     G:\SQL_Loader_Files\bads\EMPLOYEE_DETAILS.bad
+  Discard File:  none specified
+ 
+ (Allow all discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 50
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table EMPLOYEE_DETAILS, loaded from every logical record.
+Insert option in effect for this table: TRUNCATE
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+EMPLOYEE_ID                         FIRST  4000   ,  O(") CHARACTER            
+                                                      O(")
+LOCALCOUNCIL_ID                      NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+TITLE                                NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+FIRST_NAME                           NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+LAST_NAME                            NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+STATUS                               NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+YEARQUALIFIED                        NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+INITIALS                             NEXT     *   ,  O(") CHARACTER            
+                                                      O(")
+SHOW                                 NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+DELETED                              NEXT  4000   ,  O(") CHARACTER            
+                                                      O(")
+
+value used for ROWS parameter changed from 64 to 12
+
+Table EMPLOYEE_DETAILS:
+  168 Rows successfully loaded.
+  0 Rows not loaded due to data errors.
+  0 Rows not loaded because all WHEN clauses were failed.
+  0 Rows not loaded because all fields were null.
+
+
+Space allocated for bind array:                 255600 bytes(12 rows)
+Read   buffer bytes: 1048576
+
+Total logical records skipped:          1
+Total logical records read:           168
+Total logical records rejected:         0
+Total logical records discarded:        0
+
+Run began on Wed Apr 15 16:15:09 2020
+Run ended on Wed Apr 15 16:15:09 2020
+
+Elapsed time was:     00:00:00.31
+CPU time was:         00:00:00.17
