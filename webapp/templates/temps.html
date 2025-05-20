@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{% block title %}Temps - Green Care Provider Temps{% endblock %}
+
+{% block content %}
+<h1>Temporary Workers</h1>
+<p>Total: {{ total_count }} temps</p>
+
+<div class="table-responsive mt-4">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Last Name</th>
+                <th>County</th>
+                <th>Postcode</th>
+                <th>Gender</th>
+                <th>Current Status</th>
+                <th>Nationality</th>
+                <th>Temp Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for temp in temps %}
+            <tr>
+                <td>{{ temp.temp_id }}</td>
+                <td>{{ temp.title }}</td>
+                <td>{{ temp.last_name }}</td>
+                <td>{{ temp.county }}</td>
+                <td>{{ temp.postcode }}</td>
+                <td>{{ temp.gender }}</td>
+                <td>{{ temp.current_status }}</td>
+                <td>{{ temp.nationality }}</td>
+                <td>{{ temp.temp_status }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        <li class="page-item {% if page <= 1 %}disabled{% endif %}">
+            <a class="page-link" href="{{ url_for('temps', page=page-1) if page > 1 else '#' }}">Previous</a>
+        </li>
+        {% for p in range(1, total_pages + 1) %}
+            {% if p >= page - 2 and p <= page + 2 %}
+            <li class="page-item {% if p == page %}active{% endif %}">
+                <a class="page-link" href="{{ url_for('temps', page=p) }}">{{ p }}</a>
+            </li>
+            {% endif %}
+        {% endfor %}
+        <li class="page-item {% if page >= total_pages %}disabled{% endif %}">
+            <a class="page-link" href="{{ url_for('temps', page=page+1) if page < total_pages else '#' }}">Next</a>
+        </li>
+    </ul>
+</nav>
+{% endblock %}

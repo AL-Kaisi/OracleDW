@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Green Care Provider Temps{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-12">
+        <h1>Green Care Provider Temps Data Warehouse</h1>
+        <p class="lead">Welcome to the Green Care data warehouse system. This application provides comprehensive management and analytics for temporary care worker placements.</p>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Dashboard</h5>
+                <p class="card-text">View key metrics and visualisations of the data warehouse.</p>
+                <a href="{{ url_for('dashboard') }}" class="btn btn-primary">View Dashboard</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Manage Temps</h5>
+                <p class="card-text">Browse and manage temporary workers in the system.</p>
+                <a href="{{ url_for('temps') }}" class="btn btn-primary">Manage Temps</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Local Councils</h5>
+                <p class="card-text">View and manage local council information.</p>
+                <a href="{{ url_for('councils') }}" class="btn btn-primary">View Councils</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Sessions</h5>
+                <p class="card-text">Track and manage work sessions.</p>
+                <a href="{{ url_for('sessions') }}" class="btn btn-primary">View Sessions</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Reports</h5>
+                <p class="card-text">Generate reports and analytics.</p>
+                <a href="{{ url_for('reports') }}" class="btn btn-primary">View Reports</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Data Management</h5>
+                <p class="card-text">Load data and run ETL processes.</p>
+                <a href="{{ url_for('data_load') }}" class="btn btn-primary">Manage Data</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-12">
+        <h3>System Overview</h3>
+        <p>This data warehouse system consolidates information about temporary care workers, local councils, and work sessions. It provides:</p>
+        <ul>
+            <li>Comprehensive tracking of temporary worker placements</li>
+            <li>Council request management and fulfilment tracking</li>
+            <li>Performance analytics and reporting</li>
+            <li>ETL processes for data integration</li>
+            <li>Dimensional modelling for efficient analysis</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+```
++------------------------------------------------------------------+
+|  Data Loading Interface                                          |
++------------------------------------------------------------------+
+|                                                                  |
+|  [Choose File]  sample_temps.csv                 [Upload File]   |
+|                                                                  |
+|  CSV Preview:                                                    |
+|  +-------------------------------------------------------+       |
+|  | title | forename | surname | sex  | dob      | status |       |
+|  | Dr    | James    | Smith   | Male | 1985-... | Active |       |
+|  | Dr    | Emily    | Jones   | Fem. | 1979-... | Active |       |
+|  | Dr    | Robert   | Williams| Male | 1968-... | Inact. |       |
+|  +-------------------------------------------------------+       |
+|                                                                  |
+|  Map Columns:                                                    |
+|  +--------------------------------------+                        |
+|  | Title:       [title       ▼]         |                        |
+|  | First Name:  [forename    ▼]         |                        |
+|  | Last Name:   [surname     ▼]         |                        |
+|  | Gender:      [sex         ▼]         |                        |
+|  | Date of Birth:[dob        ▼]         |                        |
+|  | Status:      [status      ▼]         |                        |
+|  +--------------------------------------+                        |
+|                                                                  |
+|              [Process Data]                                      |
+|                                                                  |
++------------------------------------------------------------------+
+```

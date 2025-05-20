@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block title %}Data Load - Green Care Provider Temps{% endblock %}
+
+{% block content %}
+<h1>Data Management</h1>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Load CSV Files</h5>
+                <p class="card-text">Load all CSV files into the staging tables.</p>
+                <button class="btn btn-primary" onclick="loadCSV()">Load CSV Files</button>
+                <div id="csv-result" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Run ETL Process</h5>
+                <p class="card-text">Execute the complete ETL process to populate dimension and fact tables.</p>
+                <button class="btn btn-success" onclick="runETL()">Run ETL Process</button>
+                <div id="etl-result" class="mt-3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <h3>ETL Process Steps</h3>
+        <ol>
+            <li>Load CSV files into staging tables</li>
+            <li>Clean and standardise data (titles, genders, postcodes)</li>
+            <li>Transform data according to business rules</li>
+            <li>Populate dimension tables</li>
+            <li>Populate fact table</li>
+        </ol>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function loadCSV() {
+    document.getElementById('csv-result').innerHTML = '<div class="alert alert-info">Loading CSV files...</div>';
+    
+    fetch('/api/load-csv', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            document.getElementById('csv-result').innerHTML = 
+                '<div class="alert alert-success">' + data.message + '</div>';
+        } else {
+            document.getElementById('csv-result').innerHTML = 
+                '<div class="alert alert-danger">Error: ' + data.error + '</div>';
+        }
+    })
+    .catch(error => {
+        document.getElementById('csv-result').innerHTML = 
+            '<div class="alert alert-danger">Error: ' + error + '</div>';
+    });
+}
+
+function runETL() {
+    document.getElementById('etl-result').innerHTML = '<div class="alert alert-info">Running ETL process...</div>';
+    
+    fetch('/api/run-etl', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            document.getElementById('etl-result').innerHTML = 
+                '<div class="alert alert-success">' + data.message + '</div>';
+        } else {
+            document.getElementById('etl-result').innerHTML = 
+                '<div class="alert alert-danger">Error: ' + data.error + '</div>';
+        }
+    })
+    .catch(error => {
+        document.getElementById('etl-result').innerHTML = 
+            '<div class="alert alert-danger">Error: ' + error + '</div>';
+    });
+}
+</script>
+{% endblock %}

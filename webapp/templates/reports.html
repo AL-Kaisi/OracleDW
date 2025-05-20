@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block title %}Reports - Green Care Provider Temps{% endblock %}
+
+{% block content %}
+<h1>Reports and Analytics</h1>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        {% if coverage_chart %}
+        <div id="coverage-chart"></div>
+        {% endif %}
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h3>Top Performing Temps</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Temp ID</th>
+                    <th>Name</th>
+                    <th>Sessions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for temp in top_temps %}
+                <tr>
+                    <td>{{ temp.temp_id }}</td>
+                    <td>{{ temp.name }}</td>
+                    <td>{{ temp.sessions }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-6">
+        <h3>Session Status Distribution</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Status</th>
+                    <th>Count</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for status in status_dist %}
+                <tr>
+                    <td>{{ status.status }}</td>
+                    <td>{{ status.count }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+{% if coverage_chart %}
+    var coverageData = {{ coverage_chart|safe }};
+    Plotly.newPlot('coverage-chart', coverageData.data, coverageData.layout);
+{% endif %}
+</script>
+{% endblock %}

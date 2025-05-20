@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Councils - Green Care Provider Temps{% endblock %}
+
+{% block content %}
+<h1>Local Councils</h1>
+
+<div class="table-responsive mt-4">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Council Name</th>
+                <th>Postcode</th>
+                <th>County</th>
+                <th>Computer System</th>
+                <th>Total Requests</th>
+                <th>Total Sessions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for council in councils %}
+            <tr>
+                <td>{{ council.local_council_id }}</td>
+                <td>{{ council.council_name }}</td>
+                <td>{{ council.postcode }}</td>
+                <td>{{ council.county }}</td>
+                <td>{{ council.computer_system_type }}</td>
+                <td>{{ council.total_requests }}</td>
+                <td>{{ council.total_sessions }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

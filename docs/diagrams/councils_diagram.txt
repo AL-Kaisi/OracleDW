@@ -1,0 +1,21 @@
+```
++------------------------------------------------------------------+
+|  Local Councils                                                  |
++------------------------------------------------------------------+
+|                                                                  |
+| ID | Council Name         | County         | System | Requests   |
++------------------------------------------------------------------+
+| 1  | Birmingham City      | West Midlands  | SystmOne | 23      |
+| 2  | Manchester City      | Greater Mancs  | EMIS     | 17      |
+| 3  | Liverpool City       | Merseyside     | Vision   | 12      |
+| 4  | Newcastle City       | Tyne and Wear  | SystmOne | 9       |
+| 5  | Leeds City           | West Yorkshire | EMIS     | 21      |
+| 6  | Bristol City         | Bristol        | SystmOne | 14      |
+| 7  | Sheffield City       | South Yorks    | EMIS     | 11      |
+| 8  | Nottingham City      | Nottinghamshire| Vision   | 8       |
+| 9  | Glasgow City         | Glasgow        | EMIS     | 15      |
+| 10 | Edinburgh City       | Edinburgh      | SystmOne | 13      |
+|                                                                  |
+|                                                                  |
++------------------------------------------------------------------+
+```

@@ -1,0 +1,39 @@
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: green_care_postgres
+    environment:
+      POSTGRES_DB: greencare_dw
+      POSTGRES_USER: greencare
+      POSTGRES_PASSWORD: greencare123
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./postgres/migrations:/docker-entrypoint-initdb.d
+      - ./postgres/scripts:/scripts
+      - ./csv:/data/csv:ro
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U greencare"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  webapp:
+    build: ./webapp
+    container_name: green_care_webapp
+    command: python enhanced_dashboard.py
+    ports:
+      - "5000:5000"
+    environment:
+      DATABASE_URL: postgresql://greencare:greencare123@postgres:5432/greencare_dw
+      FLASK_ENV: development
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./webapp:/app
+      - ./csv:/app/csv:ro
+
+volumes:
+  postgres_data:

@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Green Care Provider Temps{% endblock %}
+
+{% block content %}
+<h1>Dashboard</h1>
+
+<div class="row mt-4">
+    <div class="col-md-3">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-header">Total Temps</div>
+            <div class="card-body">
+                <h2 class="card-title">{{ metrics.total_temps }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-header">Total Councils</div>
+            <div class="card-body">
+                <h2 class="card-title">{{ metrics.total_councils }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-info mb-3">
+            <div class="card-header">Total Sessions</div>
+            <div class="card-body">
+                <h2 class="card-title">{{ metrics.total_sessions }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-warning mb-3">
+            <div class="card-header">Active Requests</div>
+            <div class="card-body">
+                <h2 class="card-title">{{ metrics.active_requests }}</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        {% if monthly_chart %}
+        <div id="monthly-chart"></div>
+        {% endif %}
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        {% if council_chart %}
+        <div id="council-chart"></div>
+        {% endif %}
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <button class="btn btn-secondary" onclick="refreshMetrics()">Refresh Metrics</button>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+{% if monthly_chart %}
+    var monthlyData = {{ monthly_chart|safe }};
+    Plotly.newPlot('monthly-chart', monthlyData.data, monthlyData.layout);
+{% endif %}
+
+{% if council_chart %}
+    var councilData = {{ council_chart|safe }};
+    Plotly.newPlot('council-chart', councilData.data, councilData.layout);
+{% endif %}
+
+function refreshMetrics() {
+    fetch('/api/dashboard-metrics')
+        .then(response => response.json())
+        .then(data => {
+            location.reload();
+        })
+        .catch(error => console.error('Error:', error));
+}
+</script>
+{% endblock %}
